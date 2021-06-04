@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: ĐÂY LÀ MỘT CON NGƯỜI
+n2: ĐÂY LÀ MỘT CON NGƯỜI<Chắc chắn không phải con chó>
 
 (...600)
 
@@ -51,7 +51,7 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: VÀ ĐÂY LÀ SỰ LO ÂU CỦA CON NGƯỜI
+n: VÀ ĐÂY LÀ SỰ LO ÂU CỦA CON NGƯỜI<đây hình như là con cáo>
 
 n: _BẠN_ LÀ SỰ LO ÂU
 
@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *NGUY HIỂM*
+n: CÔNG VIỆC CỦA BẠN LÀ BẢO VỆ CON NGƯỜI KHỎI *THỨ CHẾT TIỆT MANG TÊN: NGUY HIỂM*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: MÈO KHÔNG THỂ TIÊU HOÁ SỮA VÀ VÀ CHÚNG TA LÀ NGƯỜI KINH KHỦNG VÌ THƯỞNG THỨC HÀNH HẠ ĐỘNG VẬT
+b: MÈO KHÔNG THỂ TIÊU HOÁ SỮA VÀ VÀ CHÚNG TA LÀ NGƯỜI KINH KHỦNG VÌ THƯỞNG THỨC HÀNH HẠ ĐỘNG VẬT<THẬT RA LÀ KHÔNG TIÊU HÓA ĐƯỢC ĐƯỜNG TRONG SỮA>
 
 (...200)
 
