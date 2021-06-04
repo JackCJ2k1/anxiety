@@ -27,7 +27,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act4"}}
-[_CONTINUE_: Chiếc bánh khác](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_TIẾP TỤC_: Chiếc bánh khác](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
@@ -39,7 +39,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE}}
-[Chọn Chương](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
+[Chọn Phần](#chapter-select) `Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 [(ghi chú về nội dung)](#intro-play-button) `Game.OVERRIDE_CHOICE_LINE=true; publish('show_cn');`
@@ -69,11 +69,11 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if window.localStorage.credits}}
-[V. Danh Đề](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
+[V. Credit](#to-credits) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.credits}}
-[V. Danh Đề]()
+[V. Credit]()
 {{/if}}
 
 [(màn hình chính)](#intro-play-button) `publish("HACK_chselect_end"); Game.OVERRIDE_CHOICE_LINE=true;`
